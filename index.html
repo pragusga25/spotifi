@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Spotify</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Spotifi</h1>
+      <nav>
+        <ul>
+          <li><a href="#all-songs">All Songs</a></li>
+          <li><a href="#most-played-songs">Most Played Songs</a></li>
+          <li><a href="#add-songs">Add Songs</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="all-songs" class="fade-in">
+        <h2>All Songs</h2>
+        <ul>
+          <li>Song 1</li>
+          <li>Song 2</li>
+          <li>Song 3</li>
+          <!-- Add more songs here -->
+        </ul>
+      </section>
+
+      <section id="most-played-songs" class="fade-in">
+        <h2>Most Played Songs</h2>
+        <ul>
+          <li>Song A</li>
+          <li>Song B</li>
+          <li>Song C</li>
+          <!-- Add more songs here -->
+        </ul>
+      </section>
+
+      <section id="add-songs" class="fade-in">
+        <h2>Add Songs</h2>
+        <form>
+          <label for="song-name">Song Name:</label>
+          <input type="text" id="song-name" name="song-name" required />
+
+          <label for="artist">Artist:</label>
+          <input type="text" id="artist" name="artist" required />
+
+          <br />
+          <button type="submit">Add to Playlist</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
